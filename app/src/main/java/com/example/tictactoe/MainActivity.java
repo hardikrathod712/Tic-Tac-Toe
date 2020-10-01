@@ -77,7 +77,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             player1turn = !player1turn;
         }
     }
-
+    
+    // Logic for checking the winning combinations     
     private boolean checkForWin(){
         int i,j;
         String[][] field = new String[3][3];
